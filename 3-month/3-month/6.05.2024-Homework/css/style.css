@@ -1,0 +1,210 @@
+:root{
+    --blue:#57B8FF;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Orbitron', 'sans-serif';
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+
+.container{
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 16px;
+    margin:0 auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .button{
+    display: flex;
+    background-color: var(--blue);
+    color: white;
+    width: 158px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-color: white;
+  }
+
+  .header{
+    width: 100%;
+    display: flex;
+    background:transparent ;
+    position: absolute;
+  }
+.logo{
+    margin-right: 200px;
+}
+.nav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .nav-item {
+    margin-right: 55px;
+  }
+
+.nav-link{
+    color: white;
+}
+
+.yellow :hover{
+    color: yellow;
+}
+
+.header_pic{
+    margin-left:auto;
+    margin-right: 25px;
+}
+
+.hero{
+    width: 100%;
+    height: 1069px;
+    background-color: black;
+    background-image: url('../img/blue-rectangle.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.hero_cover{
+    width: 55%;
+    height: 1069px;
+    background:transparent ;
+    padding-top: 250px;
+}
+
+.hero-title{
+    width: 656px;
+    height: 258px;
+    top: -2px;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    color: #FFF;
+    text-transform: capitalize;
+}
+
+.hero-text{
+    padding-top: 50px;
+    width: 615px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #999999;
+    padding-bottom: 110px;
+}
+
+.hero-pic{
+    width: 80%;
+    height: 1069px;
+    background: var(--blue);
+    padding-top: 209px;
+}
+
+.hero-enter{
+    display: flex;
+    align-items: center;
+}
+
+.explore{
+    width: 203px;
+    height: 70px;
+    display: flex;
+}
+
+.hero-mintitle{
+    display: flex;
+    width: 248px;
+    height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFF;
+    padding-left: 50px;
+}
+
+
+.sponsors{
+    background-color:#FDD04A;
+    width: 100%;
+    height: 542px;
+}
+
+.spon-text{
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+.spon-title{
+    width: 374px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: center;
+    height: 58px;
+    color:#222730 ;
+}
+
+.spon-p{
+    display: flex;
+    width: 576px;
+    padding-top: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color:#555555;
+    height: 52px;
+}
+
+.spon-pictures{
+    display: flex;
+    padding-top: 193px;
+    justify-content: space-between;
+}
